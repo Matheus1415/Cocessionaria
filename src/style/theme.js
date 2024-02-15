@@ -28,7 +28,7 @@ export const Theme = {
       xSmall: '20px',
       Small: '20%',
       Xmedium: '35px',
-      Xmedium: '50%',
+      medium: '50%',
       xLarge: '100%',
       large : '60px',
     }

@@ -1,10 +1,15 @@
-import { Menu } from "../../components/menu/Menu"
+import { Outlet, useLocation } from "react-router-dom";
+import { Menu } from "../../components/menu/Menu";
 
-export const Home = () =>{
-    return(
+export const Home = () => {
+    const location = useLocation().pathname;
+
+    return (
         <>
-        <Menu/>
-            <h1>Ola aqui é a Home</h1>
+            <Menu />
+            {
+                location !== '/' ? <Outlet /> : <h1>Olá aqui é a home</h1>
+            }
         </>
-    )
-}
+    );
+};
