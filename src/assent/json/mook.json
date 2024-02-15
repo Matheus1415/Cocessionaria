@@ -1,0 +1,95 @@
+{
+    "carros": [
+      {
+        "id": 1,
+        "nome": "Toyota Corolla",
+        "preco": 85000,
+        "descricao": "O Toyota Corolla é um sedã compacto que oferece conforto e confiabilidade. Com um interior espaçoso, tecnologia avançada e ótima eficiência de combustível, o Corolla é uma escolha popular entre os motoristas que buscam um carro prático e econômico. Seu design elegante e sua reputação de durabilidade fazem do Corolla uma opção atraente para aqueles que valorizam qualidade e desempenho.",
+        "ano": 2022,
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "cor": "Prata",
+        "kilometragem": 0,
+        "combustivel": "Gasolina",
+        "transmissao": "Automática",
+        "motor": "2.0L 4 cilindros",
+        "imagem": "https://exemplo.com/imagem_corolla.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Honda Civic",
+        "preco": 82000,
+        "descricao": "O Honda Civic é um sedan moderno e esportivo com tecnologia avançada. Com um design elegante, excelente dirigibilidade e recursos de segurança inovadores, o Civic oferece uma experiência de condução emocionante e segura para seus ocupantes. Seu motor potente e sua suspensão ajustada garantem um desempenho excepcional em estradas urbanas e rodovias.",
+        "ano": 2022,
+        "marca": "Honda",
+        "modelo": "Civic",
+        "cor": "Preto",
+        "kilometragem": 0,
+        "combustivel": "Gasolina",
+        "transmissao": "CVT",
+        "motor": "1.5L 4 cilindros turbo",
+        "imagem": "https://exemplo.com/imagem_civic.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Volkswagen Golf",
+        "preco": 78000,
+        "descricao": "O Volkswagen Golf é um hatch compacto com ótimo desempenho e dirigibilidade. Com um interior versátil, tecnologia intuitiva e excelente economia de combustível, o Golf é uma escolha popular entre os motoristas que valorizam a praticidade e a eficiência. Seu design aerodinâmico e sua construção sólida garantem uma condução suave e confortável em todas as condições de estrada.",
+        "ano": 2022,
+        "marca": "Volkswagen",
+        "modelo": "Golf",
+        "cor": "Branco",
+        "kilometragem": 0,
+        "combustivel": "Gasolina",
+        "transmissao": "Automática",
+        "motor": "1.4L 4 cilindros turbo",
+        "imagem": "https://exemplo.com/imagem_golf.jpg"
+      },
+      {
+        "id": 4,
+        "nome": "Ford Mustang",
+        "preco": 120000,
+        "descricao": "O Ford Mustang é um ícone do automobilismo americano, conhecido por seu estilo clássico e desempenho poderoso. Com um motor V8 e uma suspensão esportiva, o Mustang oferece uma experiência de condução emocionante e inesquecível. Seu design agressivo e sua história rica fazem do Mustang um dos carros mais desejados do mundo.",
+        "ano": 2022,
+        "marca": "Ford",
+        "modelo": "Mustang",
+        "cor": "Vermelho",
+        "kilometragem": 0,
+        "combustivel": "Gasolina",
+        "transmissao": "Manual",
+        "motor": "5.0L V8",
+        "imagem": "https://exemplo.com/imagem_mustang.jpg"
+      },
+      {
+        "id": 5,
+        "nome": "Chevrolet Onix",
+        "preco": 65000,
+        "descricao": "O Chevrolet Onix é um hatch compacto com um ótimo custo-benefício. Com um design moderno, tecnologia avançada e economia de combustível, o Onix é uma escolha popular entre os motoristas que buscam um carro prático e acessível. Sua dirigibilidade ágil e seu espaço interno generoso tornam o Onix uma opção versátil para o dia a dia.",
+        "ano": 2022,
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "cor": "Azul",
+        "kilometragem": 0,
+        "combustivel": "Flex",
+        "transmissao": "Automática",
+        "motor": "1.0L 3 cilindros turbo",
+        "imagem": "https://exemplo.com/imagem_onix.jpg"
+      },
+      {
+        "id": 6,
+        "nome": "Hyundai HB20",
+        "preco": 70000,
+        "descricao": "O Hyundai HB20 é um hatch popular com um design arrojado e moderno. Com uma gama de opções de motorização, tecnologia avançada e conforto interior, o HB20 é uma escolha versátil para os motoristas que valorizam estilo e eficiência. Seu desempenho dinâmico e sua manobrabilidade ágil tornam o HB20 ideal para uso urbano.",
+        "ano": 2022,
+        "marca": "Hyundai",
+        "modelo": "HB20",
+        "cor": "Branco",
+        "kilometragem": 0,
+        "combustivel": "Flex",
+        "transmissao": "Automática",
+        "motor": "1.6L 4 cilindros",
+        "imagem": "https://exemplo.com/imagem_hb20.jpg"
+      }
+    ]
+  }
+  
