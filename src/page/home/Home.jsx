@@ -3,6 +3,7 @@ import { Menu } from "../../components/menu/Menu";
 import { SocialBar } from "../../components/socialNavNar/SocialNavBar";
 import { SectionPadrao } from "../../components/section/Section";
 import { Caixa } from '../../components/caixa/Container'
+import { Form } from "../../components/form/form";
 
 
 export const Home = () => {
@@ -19,10 +20,9 @@ export const Home = () => {
                     </Caixa> 
                 :
                 <Caixa>
-                    <SectionPadrao titulo="paaaaaaaaaaaa">
+                    <SectionPadrao titulo="Seja Bem vindo">
                         <img src={require("../../assent/Bg-carro.png")} alt="" />
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam inventore quasi enim praesentium reiciendis iste molestiae doloribus aliquam! Cum, eligendi? Voluptates debitis, quibusdam dolores culpa perspiciatis ratione rem repellendus.</p>
+                        <Form/>
                     </SectionPadrao>
                 </Caixa>
             }
