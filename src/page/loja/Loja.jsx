@@ -1,4 +1,11 @@
-
+import {SectionPadrao} from '../../components/section'
 export const Loja = () =>{
-    return <h1>Essa é a pagina da Loja</h1>
+    return (    
+        <>
+            <SectionPadrao>
+
+            </SectionPadrao>
+        
+        </>
+    )
 }

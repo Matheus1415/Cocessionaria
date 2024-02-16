@@ -7,10 +7,17 @@ import { Form } from "../../components/form/form";
 import { Input } from "../../components/input/Input";
 import { Carrosel } from "../../components/carrosel/Carrosel";
 import { CardGrup } from "../../components/grupCard/GrupCard";
+import { Diferencial } from "../../components/diferenciais/Diferenciais";
 
 
 export const Home = () => {
     const location = useLocation().pathname;
+
+    const conteudo = {
+        titulo:"Meu diferencial",
+        paragrafo:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab iure corrupti eaque, fugit tenetur consequatur fuga voluptatum voluptatibus animi, iste unde amet. Molestias atque aperiam, ipsam odit sed mollitia quos!Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+    }
+
     const images = [
         'Bg-carro.png',
         'Bg-carro2.png',
@@ -58,7 +65,35 @@ export const Home = () => {
 
                     <SectionPadrao titulo="Nossos diferenciais">
                         <CardGrup>
-                            
+                            <div>
+                                <Diferencial 
+                                    titulo={conteudo.titulo}
+                                    paragrafo={conteudo.paragrafo}
+                                />
+                                <Diferencial 
+                                    titulo={conteudo.titulo}
+                                    paragrafo={conteudo.paragrafo}
+                                />
+                                <Diferencial 
+                                    titulo={conteudo.titulo}
+                                    paragrafo={conteudo.paragrafo}
+                                />
+                            </div>
+
+                            <div>
+                                <Diferencial 
+                                    titulo={conteudo.titulo}
+                                    paragrafo={conteudo.paragrafo}
+                                />
+                                <Diferencial 
+                                    titulo={conteudo.titulo}
+                                    paragrafo={conteudo.paragrafo}
+                                />
+                                <Diferencial 
+                                    titulo={conteudo.titulo}
+                                    paragrafo={conteudo.paragrafo}
+                                />
+                            </div>
                         </CardGrup>
                     </SectionPadrao>
                 </Caixa>
