@@ -1,7 +1,7 @@
 export const Theme = {
     colors: {
       primary: '#007bff', // Azul
-      secondary: '#6c757d', // Cinza
+      secondary: '#011f3f', // Azul escuro
       success: '#28a745', // Verde
       danger: '#dc3545', // Vermelho
       warning: '#ffc107', // Amarelo

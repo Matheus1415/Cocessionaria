@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinkPage } from '../Links/Link';
+import { LinkPage } from '../links/Link';
 import { Logo } from '../menuLogo/MenuLogo';
 import { Section } from './MenuStyle';
 import { MenuLink } from '../MenuLink/MenuLink'; 
@@ -12,7 +12,7 @@ export const Menu = () => {
                 <LinkPage nome="Home" pageLink="/" />
                 <LinkPage nome="Sobre" pageLink="/sobre" />
                 <LinkPage nome="Contato" pageLink="/contato" />
-                <LinkPage nome="Loja" pageLink="/lojax" />
+                <LinkPage nome="Loja" pageLink="/loja" />
             </MenuLink>
         </Section>
     );

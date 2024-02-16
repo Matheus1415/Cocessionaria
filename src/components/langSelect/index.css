@@ -1,0 +1,16 @@
+
+select{
+    width: 130px;
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
+
+option{
+    background-color: #045199 !important;
+    color: white;
+    border-radius: 0 !important;
+}
+
+
+select:focus{outline: none;border: 0;}

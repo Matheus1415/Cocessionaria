@@ -5,5 +5,5 @@ export const UlStyle = styled.ul`
     list-style-type: none;
     margin: -10px;
     display: flex;
-    flex-direction: row;
+   justify-content: right;
 `;
