@@ -6,5 +6,6 @@ ${({theme}) => css`
     font-size: ${theme.fontSizes.large};
     text-decoration: none;
     padding: ${theme.spacing.xSmall};
+    display: inline-block;
 `}
 `;
