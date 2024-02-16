@@ -12,7 +12,7 @@ export const InputStyle = styled.div`
             border-radius: 10px;
         }
 
-        & > input:focus, #text, #email, #tel, #senha{
+        & > input:focus, #text:focus, #email:focus, #tel:focus, #senha:focus{
             outline: none;
             box-shadow: 1px 3px 10px  rgba(0,0,0,1.7);
         }

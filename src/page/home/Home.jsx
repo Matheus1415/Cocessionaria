@@ -5,10 +5,18 @@ import { SectionPadrao } from "../../components/section/Section";
 import { Caixa } from '../../components/caixa/Container'
 import { Form } from "../../components/form/form";
 import { Input } from "../../components/input/Input";
+import { Carrosel } from "../../components/carrosel/Carrosel";
+import { CardGrup } from "../../components/grupCard/GrupCard";
 
 
 export const Home = () => {
     const location = useLocation().pathname;
+    const images = [
+        'Bg-carro.png',
+        'Bg-carro2.png',
+        'Bg-carro3.png',
+        'Bg-carro4.png',
+      ]
 
     return (
         <>
@@ -21,14 +29,37 @@ export const Home = () => {
                     </Caixa> 
                 :
                 <Caixa>
-                    <SectionPadrao titulo="Seja Bem vindo">
-                        <img src={require("../../assent/Bg-carro.png")} alt="" />
+                    <SectionPadrao titulo="Seja Bem vindo ao nosso conssorcio">
+                        <Carrosel images={images}/>
+
                         <Form titulo="Entre em contato com-nosco">
-                            <Input type="text" idType="text" placeholder="Digite seu nome completo"/>
-                            <Input type="email" idType="email" placeholder="Digite seu email"/>
-                            <Input type="tel" idType="tel" placeholder="Digite seu telefone"/>
-                            <Input type="password" idType="senha" placeholder="Digite sua senha"/>
+                            <Input 
+                                type="text" 
+                                idType="text" 
+                                placeholder="Digite seu nome completo"
+                            />
+                            <Input 
+                                type="email" 
+                                idType="email" 
+                                placeholder="Digite seu email"
+                            />
+                            <Input 
+                                type="tel" 
+                                idType="tel" 
+                                placeholder="Digite seu telefone"
+                            />
+                            <Input 
+                                type="password" 
+                                idType="senha"                             
+                                placeholder="Digite sua senha"
+                            />
                         </Form>
+                    </SectionPadrao>
+
+                    <SectionPadrao titulo="Nossos diferenciais">
+                        <CardGrup>
+                            
+                        </CardGrup>
                     </SectionPadrao>
                 </Caixa>
             }
