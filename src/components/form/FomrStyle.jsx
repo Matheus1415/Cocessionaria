@@ -16,6 +16,14 @@ export const FomrStyle = styled.div`
             justify-content: center;
             flex-direction: column;
         }
+
+        & > h1{
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+            color: white;
+            font-size: calc(${theme.fontSizes.large} + 2px);
+        }
         
     `}
 `;

@@ -2,7 +2,7 @@ import styled,{css} from "styled-components";
 
 export const InputStyle = styled.div`
     ${({theme}) => css`
-        & > input{
+        & > input, #text, #email, #tel, #senha{
             width: 300px !important;
             margin: 10px 0;
             max-width: 400px;
@@ -12,7 +12,7 @@ export const InputStyle = styled.div`
             border-radius: 10px;
         }
 
-        & > input:focus{
+        & > input:focus, #text, #email, #tel, #senha{
             outline: none;
             box-shadow: 1px 3px 10px  rgba(0,0,0,1.7);
         }

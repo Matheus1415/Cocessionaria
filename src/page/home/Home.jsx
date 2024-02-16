@@ -23,11 +23,11 @@ export const Home = () => {
                 <Caixa>
                     <SectionPadrao titulo="Seja Bem vindo">
                         <img src={require("../../assent/Bg-carro.png")} alt="" />
-                        <Form>
+                        <Form titulo="Entre em contato com-nosco">
                             <Input type="text" idType="text" placeholder="Digite seu nome completo"/>
-                            <Input type="email" idType="text" placeholder="Digite seu email"/>
-                            <Input type="tel" idType="text" placeholder="Digite seu telefone"/>
-                            <Input type="password" idType="text" placeholder="Digite sua senha"/>
+                            <Input type="email" idType="email" placeholder="Digite seu email"/>
+                            <Input type="tel" idType="tel" placeholder="Digite seu telefone"/>
+                            <Input type="password" idType="senha" placeholder="Digite sua senha"/>
                         </Form>
                     </SectionPadrao>
                 </Caixa>
